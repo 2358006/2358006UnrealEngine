@@ -30,7 +30,7 @@ private:
 	UStaticMeshComponent* chairMesh;
 
 	float floatSpeed = 20.0f;  // 부양 속도
-	float floatHeight = 100.0f; // 부양 최대 높이
+	float floatHeight = 1000.0f; // 부양 최대 높이
 	float initialHeight;       // 처음 위치 저장
 	bool isRising = true;    // 부양 방향 제어
 };
